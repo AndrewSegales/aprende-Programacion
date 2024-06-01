@@ -1,0 +1,56 @@
+/* NavBar.css */
+
+/* Estilos para el nav */
+nav {
+  width: 100%;
+  height: 38px;
+  background-color: #0a0a23;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  position: fixed;  /* Fija la barra de navegación */
+  top: 0;  /* Posiciona la barra en la parte superior */
+  left: 0;  /* Asegura que la barra esté alineada a la izquierda */
+  z-index: 1000;  /* Asegura que la barra esté por encima de otros elementos */
+}
+
+/* Remover padding y margenes de ul */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para universalLeft */
+.universalLeft {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el cuadro de búsqueda */
+.search {
+  width: 500px;
+  height: 28px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px; /* Ajuste de espacio si es necesario */
+}
+
+/* Estilos para textbox dentro del cuadro de búsqueda */
+.textbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textbox a {
+  background-color: var(--gray-75);
+  color: var(--gray-00);
+  z-index: 100;  }
+  
