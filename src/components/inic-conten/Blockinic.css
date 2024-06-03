@@ -1,0 +1,11 @@
+/* Blockinic.css */
+.bloque-general {
+    width: 90%; /* Ajusta el ancho del bloque según sea necesario */
+    max-width: 1200px; /* Establece un ancho máximo para evitar que el bloque se vuelva demasiado ancho en pantallas grandes */
+    margin: 0 auto; /* Centra el bloque horizontalmente en la página */
+    padding: 20px; /* Agrega espacio interior al bloque */
+    background-color: #f0f0f0; /* Color de fondo del bloque */
+    border-radius: 10px; /* Agrega bordes redondeados al bloque */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al bloque */
+  }
+  
